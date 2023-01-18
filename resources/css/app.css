@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import "bootstrap/dist/css/bootstrap.css"; */
 
 .vote-page-content{
     background-color: #bee0ec !important;
@@ -10,4 +11,56 @@
 }
 .vote-page-side{
     background-color: #e9f5f9;
+}
+
+.x-large{
+    font-size: x-large;
+    color:#607d8b;
+}
+.ant-card .ant-card-head-title{
+    overflow: initial;
+    padding: 20px;
+}
+.text-button{
+display: flex;
+align-items: center;
+height: 50px;
+min-width: 250px;
+background-color: #f7f9f9;
+}
+.text-color{
+color:"#3b4c55"
+}
+.user-text{
+    /* background-color: #f7f9f9; */
+    border-right: 2px solid #e8f0f4;
+    height: 350px;
+}
+.read-only-text{
+height: 350px;
+}
+.ant-card-body .text-area{
+    height: 300px;
+    resize: none;
+    border: 0;
+}
+.ant-card-body{
+    padding:24px 0 !important;
+}
+.readOnly{
+    width: 100%;
+    cursor: inherit;
+    color: #828686;
+}
+.readOnly:focus{
+    outline: none;
+    box-shadow:none
+}
+.copy{
+font-weight: bold;
+background-color: #0970ac;
+}
+.correct{
+    background: #b18def !important;
+    font-weight: bold;
 }

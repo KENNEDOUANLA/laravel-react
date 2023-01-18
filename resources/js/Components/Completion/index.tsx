@@ -1,0 +1,1 @@
+export { TraductionComponent } from "./Traduction";
